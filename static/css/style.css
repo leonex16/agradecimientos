@@ -1,6 +1,10 @@
 @import 'moduleCss/navbar.css';
 @import 'moduleCss/body.css';
 
+html {
+    background-color: transparent !important;
+}
+
 body{
     background-color: #000;
 }
