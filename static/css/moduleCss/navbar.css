@@ -45,7 +45,7 @@
 }
 
 .navbar-container__text--active{
-    border-left: 4px solid #fff;
+    border-left: 4px solid #fff !important;
     opacity: 1;
     padding-left: .5rem;
 }
