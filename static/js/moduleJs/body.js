@@ -19,7 +19,7 @@ const nameValidator = () => {
         let $tempTemplate = document.createElement('template');
         $tempTemplate.innerHTML = `
             <section class="section-container">
-                <img class="section-container__img">
+                <div class="section-container__img"></div>
                 <p class="section-container__paragraph">
                     Para empezar, quiero agradecer a todos los profesores que fueron aportando con un grano de arena en mi formación profesional, en especial a la profesora Claudia Bustamante y el profesor Pablo Salamanca, por el compromiso, conocimiento y disposición que demostraron, tanto, en cada una de sus clases, como, fuera de estas. Ellos nos transmitieron el ser inconformistas con nuestro trabajo y así, destacar con nuestros resultados.  
                 </p>
