@@ -1,0 +1,132 @@
+.main{
+    position: relative;
+    z-index: 100;
+}
+
+.main-container{
+    max-width: 80%;
+    min-height: calc(100vh - 250px);
+    border: 1px solid rgba(255, 255, 255, .1);
+    margin: 6rem auto 2rem auto;
+    padding: 1rem;
+}
+
+.layer-security{
+    width: 100%;
+    height: calc(100vh - 250px);
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 17rem;
+}
+
+.layer-security__name{
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, .8);
+    height: 2.5rem;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+	font-size: 1.5rem;
+    color: #fff;
+    
+	padding: 0 .5rem;
+}
+
+.layer-security__name::placeholder{
+    text-align: center;
+}
+
+.layer-security__btn{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .8);
+    height: 2.5rem;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+
+    padding: 0 .5rem;
+    margin: 1rem 0;
+
+    cursor: pointer;
+}
+
+.layer-security__error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.layer-security__error--d-none{
+    display: none;
+}
+
+.layer-security__err-text{
+    margin: .5rem 0;
+}
+
+.section-container{
+    position: relative;
+}
+
+.section-container__img{
+    background-image: url('https://us.123rf.com/450wm/mimagephotography/mimagephotography1812/mimagephotography181200205/113230400-close-up-front-portrait-of-handsome-latin-man-against-isolated-white-background.jpg?ver=6');
+    width: 150px;
+    height: 150px;
+
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(255, 255, 255, .1);
+
+    position: absolute;
+    top: -160px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section-container__title{
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-container__paragraph{
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 2rem auto;
+}
+
+.section-container__paragraph:nth-child(2){
+    margin-top: 3.5rem;
+}
+
+.section-container__footer{
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Mobile */
+@media (min-width: 768px) {
+    .main-container{
+        width: 65%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 1024px) {
+    .main-container{
+        width: 50%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+    .main-container{
+        width: 35%;
+    }
+}
