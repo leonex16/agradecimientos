@@ -20,7 +20,7 @@
 .navbar-container__container-link{
     position: absolute;
     left: -250px;
-    background-color: rgba(17, 17, 17, .96);
+    background-color: rgba(17, 17, 17, .96) !important;
     width: 250px;
     height: 100vh;
     transition: left .3s;
@@ -92,7 +92,7 @@
     .navbar-container__text--active{
         border-left: 0;
         padding-left: 0;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #fff !important;
     }
 
     .friconix{
