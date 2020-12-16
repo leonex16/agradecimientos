@@ -113,12 +113,12 @@
 }
 
 .section-container__img--parra-pablo{
-    background-image: url('/static/img/parra-pablo.jpeg');
+    background-image: url('../../img/parra-pablo.jpeg');
     background-position: 60% 10%;
 }
 
 .section-container__img--espinoza-sotelo{
-    background-image: url('/static/img/espinoza-sotelo.jpg');
+    background-image: url('../../img/espinoza-sotelo.jpg');
 }
 
 .section-container__title{
