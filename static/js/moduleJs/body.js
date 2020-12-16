@@ -19,7 +19,7 @@ const nameValidator = () => {
         let $tempTemplate = document.createElement('template');
         $tempTemplate.innerHTML = `
             <section class="section-container">
-                <div class="section-container__img"></div>
+                <div class="section-container__img section-container__img--espinoza-sotelo"></div>
                 <p class="section-container__paragraph">
                     Para empezar, quiero agradecer a todos los profesores que fueron aportando con un grano de arena en mi formación profesional, en especial a la profesora Claudia Bustamante y el profesor Pablo Salamanca, por el compromiso, conocimiento y disposición que demostraron, tanto, en cada una de sus clases, como, fuera de estas. Ellos nos transmitieron el ser inconformistas con nuestro trabajo y así, destacar con nuestros resultados.  
                 </p>
@@ -39,10 +39,10 @@ const nameValidator = () => {
                     Asimismo, agradezco a mi pareja, por su cariño y comprensión que tuvo a lo largo de este proceso, en donde hubo días en los cuales no podíamos ni hablar de lo agotado que estaba.
                 </p>
                 <p class="section-container__paragraph">
-                    Gracias por escucharme siempre, e intentar entender esas explicaciones de chino que te daba.
+                    Gracias por escucharme siempre, e intentar entender esas explicaciones de chino que te daba, además de darme ánimos cuando la frustración era más grande que yo.
                 </p>
                 <p class="section-container__paragraph">
-                    Por último, quiero agradecer a mis compañeros con los cuales compartí varios momentos a lo largo de estos cuatro años  y que, a pesar de que algunos decidieron tomar caminos diferentes, igualmente nos organizamos para salir de la monotonía y pasar un buen rato.
+                    Por último, quiero agradecer a mis compañeros con los cuales compartí varios momentos a lo largo de estos cuatro años y que, a pesar de que algunos decidieron tomar caminos diferentes, igualmente nos organizamos para salir de la monotonía y pasar un buen rato, sobre todo con esas hamburguesas del mamut. 
                 </p>
                 <h3 class="section-container__footer">
                     A todos, muchas gracias.
