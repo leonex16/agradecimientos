@@ -36,7 +36,9 @@ const nameValidator = () => {
         'leonel espinoza',
         'camilo mondaca',
         'bastian sepulveda',
-        'matias muñoz'
+        'matias muñoz',
+        'felipe campos',
+        'ignacio hernandez'
     ];
 
     switch(true){
