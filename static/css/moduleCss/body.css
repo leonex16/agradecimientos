@@ -112,6 +112,10 @@
     margin: auto;
 }
 
+.section-container__img--chuhaicura-mendez{
+    background-image: url('/static/img/chuhaicura-mendez.jpeg');
+}
+
 .section-container__img--parra-pablo{
     background-image: url('/static/img/parra-pablo.jpeg');
     background-position: 60% 10%;
